@@ -38,6 +38,15 @@ section {
   width: 100%;
 }
 
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-alter-color);
+}
+.logo span {
+  color: var(--second-color);
+}
+
 .home {
   width: 100%;
   min-height: 85vh;
@@ -81,6 +90,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 1.5rem;
+  border: 2px solid red;
 }
 .post {
   border: 1px solid orange;
@@ -138,6 +148,10 @@ section {
 }
 
 /* FOOTER */
+
+.footer-main {
+  background: #073841;
+}
 
 .footer {
   display: flex;
@@ -375,6 +389,7 @@ section {
   align-items: center;
   column-gap: 1.5rem;
   margin-top: 2rem !important;
+  border: 2px solid orange;
 }
 .filter-item {
   font-size: 1rem;
