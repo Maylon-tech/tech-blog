@@ -16,7 +16,7 @@ header.shadow .admin-btn .bx {
   color: var(--bg-color);
 }
 
-.navbar.container {
+.navbar .container {
   max-width: 1060px;
   display: flex;
   justify-content: space-between;
@@ -26,6 +26,9 @@ header.shadow .admin-btn .bx {
   background: var(--bg-color);
   padding: 12px 20px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-right {
